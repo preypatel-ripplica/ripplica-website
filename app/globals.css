@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #fbfaf6;
+  --foreground: #141414;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #ddece6;
+  color: #163e36;
+}
+
+@layer base {
+  :focus-visible {
+    outline: 3px solid #d86e3f;
+    outline-offset: 3px;
+  }
+}
+
+@keyframes fade-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-fade-slide-up {
+  animation: fade-slide-up 760ms ease both;
+}
+
+.animate-fade-slide-left {
+  animation: fade-slide-left 820ms ease both;
+}
+
+.animate-marquee-left {
+  animation: marquee-left 28s linear infinite;
+}
+
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-500 {
+  animation-delay: 500ms;
+}
+
+.demo-progress {
+  height: 4px;
+  width: 100%;
+  appearance: none;
+  overflow: hidden;
+  border: 0;
+  background: #444;
+}
+
+.demo-progress::-webkit-progress-bar {
+  background: #444;
+}
+
+.demo-progress::-webkit-progress-value {
+  background: #ffb41e;
+}
+
+.demo-progress::-moz-progress-bar {
+  background: #ffb41e;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-slide-up,
+  .animate-fade-slide-left,
+  .animate-marquee-left {
+    animation: none;
+  }
+}
