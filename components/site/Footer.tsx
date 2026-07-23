@@ -41,17 +41,17 @@ export function Footer() {
             aria-label="Footer navigation"
           >
             <Link href={siteConfig.appUrl} className="text-[#858585]">
-              Try now
+              Cloud automation engine
             </Link>
-            <Link href="/#demo">Demo</Link>
-            <Link href="/#features">Features</Link>
+            <Link href="/#solutions">Solutions</Link>
+            <Link href="/#use-cases">Use cases</Link>
             <Link href="/case-study">Case Study</Link>
             <Link href="#contact">Contact</Link>
           </nav>
         </div>
 
         <div className="relative z-10 mt-8 border-t border-[#d7d7d7] pt-6 text-center text-[14px] text-[#7e7e86]">
-          <p>@Ripplica 2025 - Built for humans tired of busywork</p>
+          <p>@Ripplica 2026 — AI for humans tired of busywork</p>
           <div className="mt-3 flex justify-center gap-6 text-black">
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms">Terms & Conditions</Link>

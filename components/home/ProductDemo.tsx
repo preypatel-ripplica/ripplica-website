@@ -65,11 +65,11 @@ export function ProductDemo() {
       <Container>
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-[44px] font-medium leading-tight tracking-normal text-[#3c3c3f] sm:text-[52px]">
-            Built for high performance
+            Browser automation, in three steps
           </h2>
           <p className="mx-auto mt-5 max-w-[720px] text-[19px] leading-7 text-[#7b7b86]">
-            Ripplica allows you to automate any browser based workflow in three easy
-            steps. Say bye to repititive work with your team of Ripplica agents.
+            One of our AI lines — record any browser workflow once, review the
+            steps, and let Ripplica agents run it whenever you need.
           </p>
         </div>
 

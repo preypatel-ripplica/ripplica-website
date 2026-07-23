@@ -17,6 +17,72 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
+    slug: "jpc",
+    title:
+      "Automated Digital Marketing for Healthcare: Doctor Avatar Videos, WhatsApp Lead Replies & AI Ad Optimisation at Jain Pain Clinic",
+    company: "Jain Pain Clinic (JPC)",
+    logo: "/assets/logos/jain-pain-clinic.png",
+    logoWidth: 260,
+    logoHeight: 65,
+    eyebrow: "Case Study/Jain Pain Clinic",
+    date: "Jul 23, 2026",
+    sections: [
+      {
+        heading: "About the company",
+        body:
+          "Jain Pain Clinic (JPC) is a specialised healthcare provider focused on pain management and patient-centric care. Growth depends on steady enquiry flow, clear patient education, and fast responses across digital channels — while clinical teams stay focused on treatment, not campaign ops or video shoots.",
+      },
+      {
+        heading: "The problem",
+        body:
+          "The marketing team was stretched across content, paid acquisition, and patient messaging:",
+        bullets: [
+          "Educational videos and doctor-led content needed manual shoots, editing, and rescheduling around clinic hours.",
+          "Service pages, doctor profiles, and blogs took days to draft and keep clinically accurate.",
+          "Patient and lead queries on WhatsApp piled up after hours — appointment intent was lost to slow replies.",
+          "Ad campaigns needed constant creative refreshes, audience tweaks, and budget shifts that no one had time to run daily.",
+        ],
+        footer:
+          "Manual digital marketing created uneven enquiry quality, higher cost per lead, and delayed patient follow-ups.",
+      },
+      {
+        heading: "The solution",
+        body:
+          "Ripplica deployed an automated digital marketing stack for healthcare: an AI avatar of the doctor for educational video and content generation, WhatsApp agents for patient and lead queries, and continuous AI-driven ad optimisation — tuned to JPC’s services, tone, and compliance needs.",
+      },
+      {
+        heading: "What the system enables",
+        bullets: [
+          "Doctor’s AI avatar: Create a realistic digital twin of the clinician to generate educational videos and personal-brand content without manual shoots or editing — publish with discipline in minutes.",
+          "Automated content generation: Produce and refresh service pages, doctor profiles, blogs, and campaign copy that stay on-brand and clinically careful.",
+          "Patient & lead queries on WhatsApp: Answer appointment, pricing, and treatment questions 24/7; qualify intent and hand off warm leads to the clinic team.",
+          "AI-driven ad optimisation: Iterate creatives, audiences, and budgets across campaigns so acquisition cost drops while enquiry quality rises.",
+          "Unified reporting: A recurring view of content output, WhatsApp conversation outcomes, and paid performance for the marketing manager.",
+        ],
+      },
+      {
+        heading: "How it fits the stack",
+        bullets: [
+          "AI avatar + content pipelines feed website, social, and campaign channels with human review checkpoints where needed.",
+          "WhatsApp agent uses approved response playbooks for common clinical and scheduling questions.",
+          "Ad agents monitor performance signals and propose or apply optimisations within guardrails set by the team.",
+        ],
+      },
+      {
+        heading: "Success metrics",
+        bullets: [
+          "Educational video and doctor-brand content shipped without blocking clinic calendars or studio days.",
+          "Faster content throughput — service and educational assets live with minutes of effort, not production cycles.",
+          "Higher WhatsApp response coverage for patient and lead queries, including after-hours intent.",
+          "Improved paid efficiency through continuous creative and budget optimisation.",
+          "Lighter load on the marketing manager with fewer manual campaign, shoot, and inbox loops.",
+        ],
+        footer:
+          "Business impact: Stronger digital presence, quicker patient engagement, and more predictable enquiry growth — without scaling headcount or production crews.",
+      },
+    ],
+  },
+  {
     slug: "mithila-foods",
     title:
       "P2P Acceleration for FMCG Brand: 30% Shorter Procure-to-Pay Cycle via WhatsApp + ERPNext Agent",

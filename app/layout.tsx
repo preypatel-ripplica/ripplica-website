@@ -7,16 +7,16 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Ripplica",
+    default: "Ripplica — AI tools for every industry",
     template: "%s | Ripplica",
   },
   description:
-    "Ripplica helps teams build, launch, and scale digital experiences with clarity.",
+    "Ripplica builds AI tools for healthcare, content creation, marketing, browser automation, and QA — serving 1000+ customers. VC-backed, built by gold medalists from IITs and BITS.",
   metadataBase: new URL("https://ripplica.com"),
   openGraph: {
-    title: "Ripplica",
+    title: "Ripplica — AI tools for every industry",
     description:
-      "Ripplica helps teams build, launch, and scale digital experiences with clarity.",
+      "Ripplica builds AI tools for healthcare, content creation, marketing, browser automation, and QA — serving 1000+ customers. VC-backed, built by gold medalists from IITs and BITS.",
     url: "https://ripplica.com",
     siteName: "Ripplica",
     type: "website",

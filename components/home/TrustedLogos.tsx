@@ -3,16 +3,49 @@ import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { primaryLogos, secondaryLogos } from "@/components/home/home-data";
 
+const productHuntBadges = [
+  {
+    period: "daily",
+    label: "#1 Product of the Day",
+    src: "https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1043491&theme=neutral&period=daily&t=1784801734546",
+  },
+  {
+    period: "weekly",
+    label: "#1 Product of the Week",
+    src: "https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1043491&theme=neutral&period=weekly&t=1784801734546",
+  },
+] as const;
+
 export function TrustedLogos() {
   const logos = [...secondaryLogos, ...primaryLogos];
 
   return (
-    <section className="overflow-hidden bg-white pb-10 pt-0">
+    <section className="overflow-hidden bg-white pb-14 pt-16">
       <Container>
         <p className="text-center text-[18px] font-medium text-[#7d7d86]">
-          Trusted by people at
+          Trusted by customers at
         </p>
         <LogoMarquee logos={logos} className="mt-9" />
+
+        <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
+          {productHuntBadges.map((badge) => (
+            <a
+              key={badge.period}
+              href="https://www.producthunt.com/products/ripplica/launches/ripplica?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-ripplica"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex transition hover:opacity-90"
+            >
+              <img
+                src={badge.src}
+                alt={`Ripplica — ${badge.label} on Product Hunt`}
+                width={250}
+                height={54}
+                className="h-[54px] w-[250px]"
+              />
+            </a>
+          ))}
+        </div>
       </Container>
     </section>
   );

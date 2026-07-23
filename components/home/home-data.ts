@@ -1,4 +1,161 @@
+export const credibilityStats = [
+  { value: "1000+", label: "Customers served with AI" },
+  { value: "VC-backed", label: "Building for the long term" },
+  { value: "IIT & BITS", label: "Gold medalists on the team" },
+];
+
+export const solutions = [
+  {
+    name: "Healthcare",
+    description:
+      "AI avatars for doctors, WhatsApp patient/lead replies, and ad optimisation built for hospitals and clinics.",
+  },
+  {
+    name: "Content creation",
+    description:
+      "Build realistic AI avatars and grow your personal brand without manual shoots or editing — let your AI clone publish with discipline in about 2 minutes.",
+  },
+  {
+    name: "Marketing",
+    description: "Campaign ops, lead workflows, content, and growth tasks that used to eat the week.",
+  },
+  {
+    name: "Browser automation",
+    description: "Record a workflow once — agents run it across any web app, no APIs required.",
+  },
+  {
+    name: "QA",
+    description:
+      "Repeatable web and mobile tests across products and flows so bugs surface before users do.",
+  },
+];
+
+export const industryUseCases = [
+  {
+    id: "healthcare",
+    name: "Healthcare",
+    summary:
+      "Grow and support patients with AI content, doctor avatars, WhatsApp answers, and smarter ads.",
+    cases: [
+      {
+        title: "Doctor avatar for educational videos",
+        description:
+          "Generate educational videos and doctor-led content with a realistic AI avatar — no manual shoots or editing.",
+      },
+      {
+        title: "Automated content generation",
+        description:
+          "Produce doctor profiles, service pages, blogs, and campaign copy that stay clinically accurate and on-brand.",
+      },
+      {
+        title: "Patient & lead queries on WhatsApp",
+        description:
+          "Answer appointment, pricing, and treatment questions on WhatsApp — qualify leads and hand off only when needed.",
+      },
+      {
+        title: "AI-driven ad optimisation",
+        description:
+          "Tune creatives, audiences, and budgets across health campaigns so acquisition cost drops while enquiry quality rises.",
+      },
+    ],
+  },
+  {
+    id: "content-creation",
+    name: "Content creation",
+    summary:
+      "Build realistic AI avatars and ship personal-brand content without shoots, edits, or calendar chaos.",
+    cases: [
+      {
+        title: "Realistic AI avatars",
+        description:
+          "Create a lifelike digital twin of yourself — no studio days, lighting setups, or reshoots.",
+      },
+      {
+        title: "Personal brand on autopilot",
+        description:
+          "Let your AI clone generate on-brand videos and posts so you never lose presence to a busy week.",
+      },
+      {
+        title: "Publish with discipline in 2 minutes",
+        description:
+          "Approve and push content in about two minutes of effort — consistent cadence without manual editing.",
+      },
+    ],
+  },
+  {
+    id: "marketing",
+    name: "Marketing",
+    summary: "Run growth ops end-to-end — from content and leads to campaign reporting.",
+    cases: [
+      {
+        title: "Content creation at campaign speed",
+        description:
+          "Spin up creatives, landing copy, and channel variants so campaigns launch without waiting on production.",
+      },
+      {
+        title: "Lead enrichment & routing",
+        description: "Pull context from forms and CRM fields, then hand off to the right owner.",
+      },
+      {
+        title: "Campaign reporting",
+        description: "Collect metrics across ad and analytics tools into a recurring weekly brief.",
+      },
+      {
+        title: "Outbound follow-ups",
+        description: "Draft and sequence replies so warm leads never sit unanswered.",
+      },
+    ],
+  },
+  {
+    id: "browser-automation",
+    name: "Browser automation",
+    summary: "Automate any web workflow — legacy portals included — without waiting on APIs.",
+    cases: [
+      {
+        title: "Portal data entry",
+        description: "Fill vendor, insurer, or government portals the same way a teammate would.",
+      },
+      {
+        title: "Cross-tool ops",
+        description: "Move data between SaaS tabs: CRM, sheets, dashboards, internal tools.",
+      },
+      {
+        title: "Scheduled runs",
+        description: "Replay recorded workflows on a clock — overnight, hourly, or on demand.",
+      },
+    ],
+  },
+  {
+    id: "qa",
+    name: "QA",
+    summary: "Catch regressions across web and mobile flows before they reach customers.",
+    cases: [
+      {
+        title: "Regression walks",
+        description: "Replay critical user journeys after every release and report failures.",
+      },
+      {
+        title: "Mobile tests",
+        description:
+          "Run the same critical paths on mobile — gestures, viewports, and device-specific bugs included.",
+      },
+      {
+        title: "Form & checkout checks",
+        description: "Validate edge cases that manual QA misses under time pressure.",
+      },
+      {
+        title: "Visual + functional diffs",
+        description: "Spot broken UI and logic changes across environments in one pass.",
+      },
+    ],
+  },
+];
+
 export const primaryLogos = [
+  { name: "Artemis Hospitals", src: "/assets/logos/artemis-hospitals.png", width: 150, height: 40 },
+  { name: "SSB Hospital", src: "/assets/logos/ssb-hospital.png", width: 140, height: 45 },
+  { name: "Apollo Supply Chain", src: "/assets/logos/apollo-supply-chain.png", width: 150, height: 38 },
+  { name: "Bajaj Auto Credit (BACL)", src: "/assets/logos/bajaj-auto-credit.svg", width: 160, height: 40 },
   { name: "Nuyug", src: "/assets/logos/nuyug.png", width: 167, height: 64 },
   { name: "Distacart", src: "/assets/logos/distacart.jpg", width: 260, height: 82 },
   {
@@ -130,7 +287,7 @@ export const testimonials = [
   },
   {
     quote:
-      "We cut operational delays and reduced effort across the board. It has had a real positive impact on performance and patient experience.",
+      "Doctor avatar videos, WhatsApp patient replies, and AI ad optimisation cut our marketing busywork — enquiries are faster and patient education finally scales.",
     role: "Marketing Manager",
     company: "JPC",
     logo: "/assets/testimonials/jain-pain-clinic-mark.png",
