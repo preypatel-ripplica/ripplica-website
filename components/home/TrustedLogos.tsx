@@ -20,10 +20,10 @@ export function TrustedLogos() {
   const logos = [...secondaryLogos, ...primaryLogos];
 
   return (
-    <section className="overflow-hidden bg-white pb-14 pt-0">
+    <section className="overflow-hidden bg-white pb-14 pt-16">
       <Container>
         <p className="text-center text-[18px] font-medium text-[#7d7d86]">
-          Trusted by 1000+ customers at
+          Trusted by customers at
         </p>
         <LogoMarquee logos={logos} className="mt-9" />
 
