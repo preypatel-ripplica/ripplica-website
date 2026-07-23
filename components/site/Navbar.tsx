@@ -53,9 +53,9 @@ export function Navbar() {
             </div>
             <Link
               href={siteConfig.appUrl}
-              className="rounded-full bg-black px-7 py-3 text-[16px] font-medium text-white transition-colors hover:bg-[#222]"
+              className="rounded-full bg-black px-5 py-3 text-[14px] font-medium text-white transition-colors hover:bg-[#222] sm:px-6 sm:text-[15px]"
             >
-              Try now
+              Cloud automation engine
             </Link>
           </div>
 
@@ -97,7 +97,7 @@ export function Navbar() {
                 className="rounded-full bg-black px-5 py-3 text-center text-sm font-semibold text-white"
                 onClick={() => setIsOpen(false)}
               >
-                Try now
+                Cloud automation engine
               </Link>
             </div>
           </div>

@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://ripplica.com",
   appUrl: "https://app.ripplica.com",
   description:
-    "Ripplica helps teams build, launch, and scale digital experiences with clarity.",
+    "Ripplica builds AI tools for healthcare, content creation, marketing, browser automation, and QA — serving 1000+ customers. VC-backed, built by gold medalists from IITs and BITS.",
 };
 
 export type NavItem = {
@@ -12,8 +12,8 @@ export type NavItem = {
 };
 
 export const primaryNav: NavItem[] = [
-  { label: "Demo", href: "/#demo" },
-  { label: "Features", href: "/#features" },
+  { label: "Solutions", href: "/#solutions" },
+  { label: "Use cases", href: "/#use-cases" },
   { label: "Case Study", href: "/case-study" },
 ];
 

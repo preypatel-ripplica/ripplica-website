@@ -7,6 +7,14 @@ export function FeatureGrid() {
   return (
     <section id="features" className="scroll-mt-[92px] bg-white pb-28 pt-2">
       <Container className="max-w-[1180px]">
+        <div className="mb-10 max-w-[720px]">
+          <p className="text-[15px] font-semibold tracking-[0.08em] text-brand">
+            Browser automation
+          </p>
+          <h2 className="mt-3 text-[34px] font-medium leading-tight text-ink sm:text-[40px]">
+            Built to run where your work already lives
+          </h2>
+        </div>
         <div className="grid gap-5">
           {features.map((feature) => (
             <article

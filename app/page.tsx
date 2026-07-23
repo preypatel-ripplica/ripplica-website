@@ -1,6 +1,6 @@
-import { FeatureGrid } from "@/components/home/FeatureGrid";
 import { Hero } from "@/components/home/Hero";
-import { ProductDemo } from "@/components/home/ProductDemo";
+import { IndustryUseCases } from "@/components/home/IndustryUseCases";
+import { SolutionSuite } from "@/components/home/SolutionSuite";
 import { Testimonials } from "@/components/home/Testimonials";
 import { TrustedLogos } from "@/components/home/TrustedLogos";
 
@@ -9,8 +9,8 @@ export default function HomePage() {
     <>
       <Hero />
       <TrustedLogos />
-      <ProductDemo />
-      <FeatureGrid />
+      <SolutionSuite />
+      <IndustryUseCases />
       <Testimonials />
     </>
   );
